@@ -1,0 +1,30 @@
+
+
+  .button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(37 99 235);
+    cursor: pointer;
+  }
+
+  .signature{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .signature p{
+    font-size: 2rem;
+    margin: 15px;
+    color: rgb(17, 19, 22);  
+    font-style: bold; 
+  }
+
+  .button-contain1{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .centered-button {
+    text-align: center;
+  }

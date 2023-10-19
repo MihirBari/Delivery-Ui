@@ -1,0 +1,122 @@
+.centered-button {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  cursor: pointer;
+  color: white;
+  margin-top: 15px;
+
+}
+
+.header {
+  background-color: grey;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.logout {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5px;
+}
+
+.card {
+  margin: 10px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 2px 20px 2px rgb(0 0 0 / 10%);
+  background-color: rgb(255 255 255);
+  flex: 0 0 calc(33.33% - 20px);
+  flex: calc(33.33% - 20px);
+}
+
+.card-header {
+  padding: 10px;
+  background-color: rgb(255 255 255);
+  color: rgb(17 24 39);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-header h2 {
+  margin: 0;
+}
+
+.card-body {
+  padding: 10px;
+  flex-grow: 1;
+  color: rgb(107 114 128);
+}
+
+.card-body p {
+  margin: 0 0 10px 0;
+}
+
+.card-body p strong {
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-info P {
+  color: rgb(107 114 128);
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.order-info h3 {
+  color: rgb(17 24 39);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  width: 400px;
+
+}
+
+@media (min-width: 320px) and (max-width: 389px) {
+  .card {
+    width: 345px;
+}
+}
+
+@media (min-width: 391px) and (max-width: 400px) {
+  .card {
+    width: 365px;
+}
+}
+
+@media (min-width: 410px) and (max-width: 444px) {
+  .card {
+    width: 397px;
+}
+}
+
+@media (min-width: 445px) and (max-width: 500px) {
+  .card {
+    width: 460px;
+}
+}
+
+@media (width: 390px) {
+  .card {
+    width: 362px;
+}
+}
