@@ -1,4 +1,8 @@
-//const API_BASE_URL = "http://localhost:8080";
-//const API_BASE_URL = "http://13.233.43.44:9000";
-const API_BASE_URL = "https://delivery-ch0u.onrender.com"
+// API configuration with environment variable support and sensible fallbacks
+const API_BASE_URL =
+  process.env.REACT_APP_API_URL ||
+  (window.location.hostname === "localhost"
+    ? "http://localhost:9000"
+    : "https://delivery-ch0u.onrender.com");
+
 export default API_BASE_URL;
